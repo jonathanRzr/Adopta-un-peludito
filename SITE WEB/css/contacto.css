@@ -1,0 +1,51 @@
+form{
+  width: 550px;
+  margin: auto;
+  background: rgba(0, 0, 0,0.4);
+  padding: 5px 20px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  border-radius: 7px;
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#contacto {
+	text-align: center;
+	font-size: 20px;
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+
+}
+
+#boton{
+  background: #58ACFA;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#boton:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+/*font-family: 'Exo 2', sans-serif;*/
+/*font-family: 'Orbitron', sans-serif;*/
+/*font-family: 'Handlee', cursive;*/
+/*ETIQUETAS*/
+*{
+  margin:0px;
+  padding:0px;
+  font-family: Handlee;
+}
+#contenidos{
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  position: relative;
+
+}
+
+body{
+  background-image: url(../image/huellas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  color: #3F1414;
+  margin-left: 15px;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Handlee', cursive;
+  color: #3F1414;
+  margin-left: 10px;
+  font-size: 35px;
+  text-align: left;
+}
+
+header{
+  width: 1000px;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+nav{
+  width: 1000px;
+  height: 55px;
+  background: #34A59C;
+  border-radius: 5px;
+}
+
+ul{
+  margin: auto;
+  padding-top: 4px;
+}
+
+li{
+  float: left;
+  list-style-type: none;
+  padding: 10px;
+  background: #3ABDB2;
+  margin: 3px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white inset;
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px}
+.ancho_menu_paginas{width: 970px}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 3px white;}
+.menu:active{color: white; text-decoration: none;}
